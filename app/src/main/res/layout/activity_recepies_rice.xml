@@ -1,0 +1,156 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#fff"
+            android:id="@+id/a1"
+            android:elevation="20dp"
+            >
+            <Button
+                android:id="@+id/buttonok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/vb"
+                android:paddingLeft="1dp"
+                android:onClick="xxaa"
+                android:text="Sea food"
+                android:background="#FFB74D"
+
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:id="@+id/a2"
+            android:layout_height="80dp"
+            android:layout_below="@+id/a1"
+            android:background="#fff"
+            android:elevation="20dp">
+
+            <Button
+                android:id="@+id/buttonok2"
+                android:paddingLeft="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/xc"
+                android:text="Fried rice"
+                android:gravity="center"
+                android:background="#FFB74D"
+                android:layout_gravity="center"
+
+                android:layout_below="@+id/image"
+                android:textAlignment="center"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/a3"
+            android:layout_below="@+id/a2"
+            android:background="#fff"
+            android:elevation="20dp">
+
+            <Button
+                android:id="@+id/buttonok3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/aaaaa"
+                android:text="Yellow Rice"
+                android:paddingLeft="1dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_below="@+id/image"
+                android:textAlignment="center"
+                android:background="#FFB74D"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/a3"
+            android:id="@+id/a4"
+            android:background="#fff"
+            android:elevation="20dp">
+
+            <Button
+                android:id="@+id/buttonok4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ssww"
+                android:text="Nasi Guraan"
+                android:gravity="center"
+                android:background="#FFB74D"
+                android:layout_gravity="center"
+                android:paddingLeft="1dp"
+                android:layout_below="@+id/image"
+                android:textAlignment="center"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/a5"
+            android:layout_below="@+id/a4"
+            android:background="#fff"
+            android:elevation="20dp">
+
+            <Button
+                android:id="@+id/buttonok6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/slide12"
+                android:text="Chicken Biriyani"
+                android:gravity="center"
+                android:paddingLeft="1dp"
+                android:layout_gravity="center"
+                android:background="#FFB74D"
+                android:layout_below="@+id/image"
+                android:textAlignment="center"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/a6"
+            android:layout_below="@+id/a5"
+            android:background="#fff"
+            android:elevation="20dp">
+
+            <Button
+                android:id="@+id/buttonok8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ssww"
+                android:text="Vegetable rice"
+                android:gravity="center"
+                android:background="#FFB74D"
+                android:paddingLeft="1dp"
+                android:layout_gravity="center"
+
+                android:layout_below="@+id/image"
+                android:textAlignment="center"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+</ScrollView>
+
+

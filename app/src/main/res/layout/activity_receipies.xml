@@ -1,0 +1,79 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text=" Rice"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bvbv"
+            android:textColor="#E65100"
+            android:textSize="50dp"
+            android:onClick="xxaa"
+            />
+
+
+        <Button
+            android:id="@+id/buttonc"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text=" Curries"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ii"
+            android:textColor="#E65100"
+            android:textSize="50dp"
+            />
+
+
+        <Button
+            android:id="@+id/buttonvv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text=" Sweet"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sweets"
+            android:textColor="#E65100"
+            android:textSize="50dp"
+            />
+
+        <Button
+            android:id="@+id/buttonvvv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text=" Deserts"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bn"
+            android:textColor="#E65100"
+            android:textSize="50dp"
+            />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:text=" Beverages"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+
+            android:text="Soup"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

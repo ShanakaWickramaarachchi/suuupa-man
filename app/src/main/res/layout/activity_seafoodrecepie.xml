@@ -1,0 +1,69 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=" Sea Food Rice"
+            android:textColor="#E65100"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/buttonvvv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bvbv"
+            android:textColor="#E65100"
+            android:textSize="50dp"
+            />
+
+        <TextView
+            android:id="@+id/buttonc"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text=" Ingredients
+
+300 g Basmathi
+1 onion sliced
+garlic
+green chili sliced
+50 g peel prawns
+50 g calamari rings
+100 g crab
+2 sausages
+coriander leaves
+salt
+pepper
+1/2 tsp tumaric powder
+cloves, cardamom and cinnamon
+
+
+Method
+
+Cook the rice separately with spices.
+head the pan.add onion garlic and saute,fallow with prawns,calamari cook the seafood
+Add the rice and mixed ,mean while boiled the crab keep separately.
+finish the rice with season with salt and pepper,add coriander leaves."
+            android:textSize="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/imageView2"
+    android:src="@drawable/aaa"
+    android:layout_gravity="center_horizontal" />
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#F44336"
+    android:textSize="17dp"
+    android:id="@+id/sendMessageBtn"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:text="Subscribe to Our Services" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:layout_width="0dp"
+        android:background="#AFB42B"
+        android:onClick="xx"
+        android:layout_height="match_parent"
+        android:id="@+id/imageButton3"
+        android:text="Learn to cook"
+        android:elevation="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:drawableBottom="@drawable/ic_book_white_24dp"
+        android:layout_weight="0.5"
+        />
+    <!--android:background="#F2F21D"-->
+    <!--android:drawableBottom="@drawable/"-->
+    <!--android:drawableLeft="@drawable/"-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/qqm"
+        android:layout_weight="0.5"
+        android:textSize="20dp"
+        android:text="Recepies"
+        android:drawableBottom="@drawable/ic_local_dining_white_24dp"
+        android:onClick="xx2"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#3F51B5"
+
+        android:layout_toRightOf="@+id/imageButton3"
+        android:layout_toEndOf="@+id/imageButton3" />
+    <!--android:src="@drawable/"-->
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:background="#8E24AA"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent"
+        android:id="@+id/qqq"
+        android:text="Share "
+        android:textSize="20dp"
+        android:onClick="xx3"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageButton3"
+        android:drawableBottom="@drawable/ic_share_white_24dp" />
+
+    <!--android:background="@layout/imge_btn3"-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent"
+        android:id="@+id/qqq1"
+        android:text="Tips"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_alignBottom="@+id/qqm"
+        android:onClick="Tips"
+        android:background="#2196F3"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:drawableBottom="@drawable/ic_lightbulb_outline_white_24dp"
+        />
+    <!--android:drawableBottom="@drawable/"-->
+    <!--android:drawableLeft="@drawable/"-->
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--android:background="@drawable/download">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/buttonstock"-->
+    <!--android:height="0dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="200dp"-->
+    <!--android:text="Learn to cook"-->
+    <!--android:onClick="xx"-->
+    <!--android:textSize="20sp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/buttonproducts"-->
+
+
+    <!--android:layout_weight="1"-->
+    <!--android:height="0dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:text="Receipes"-->
+    <!--android:onClick="xx2"-->
+    <!--android:textSize="20sp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/buttonproducts1"-->
+    <!--android:height="0dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:text="Add your receipes"-->
+    <!--android:onClick="xx3"-->
+    <!--android:textSize="20sp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/sendMessageBtn"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="sms"/>-->
+
+    <!--</LinearLayout>-->
+
